@@ -1,0 +1,22 @@
+.icon-container {
+    position: relative; /* Relative position for absolute positioning of text */
+  }
+  
+  .icon-text {
+    position: absolute;
+    bottom: -20px; /* Adjust this value to change the distance of text from the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Background color for the text */
+    color: white; /* Text color */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.3s ease;
+  }
+  
+  .icon-container:hover .icon-text {
+    opacity: 1; /* Show the text on hover */
+  }
+  
