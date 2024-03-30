@@ -15,9 +15,9 @@
     height: 100%;
 }
 #horizontal-row {
-    border: 0; /* Remove default border */
-    height: 2px; /* Adjust height as needed */
-    background-color: #007bff; /* Change color as needed */
+    border: 0; 
+    height: 2px; 
+    background-color: #007bff; 
 }
 
 #contactDetails{
@@ -25,8 +25,3 @@
     font-weight: 500;
     font-size: 2rem;
 }
-
-
-
-/* Media queries for responsiveness */
-

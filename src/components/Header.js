@@ -35,8 +35,6 @@ const Header=()=>{
                 </ul>
             </div>
         </div>
-
-        {/* {boolCollapse && <Sidebar />} */}
     </>
 }
 export default Header;
