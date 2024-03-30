@@ -1,0 +1,41 @@
+
+
+
+
+@media (max-width: 1199px) {
+    #about{
+        height: 100vh;
+    }
+    #aboutAccordian{
+        padding: 8px 20px;
+    }
+
+    #Technical{
+        margin: 0 10px;
+    }
+    #Technical h2 , #Technical span{
+        font-size: 14px;
+    }
+    #education{
+        padding: 0px;
+    }
+    #education #mainDiv {
+        margin: 4px 0;
+        padding: 10px;
+    }
+
+    #education img {
+        width: 180px;
+        height: 48px;
+    }
+    #education h2 {
+        font-size: 15px;
+    }
+    #education h4 {
+        font-size: 15px;
+    }
+    #commonAccordian h3{
+        font-size: 14px;
+    }
+
+}

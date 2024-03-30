@@ -1,36 +1,6 @@
 #Home{
-    
-    /* background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    url("https://images.squarespace-cdn.com/content/v1/5a1c5738f6576eb8bfab7ff3/1537505512989-UFWF7Y6ZAZO0V1MMMQGO/giphy.gif?format=2500w"); */
-
-    /* background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg"); */
     width: 100%;
     height: 100%;
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-    
-}
-
-@media screen and (min-width: 300px) and (max-width: 430px) {
-    #sidebar{
-        width: 28%;
-    }
-    #sidebarImg {
-        width: 90px;
-    }
-    #sidebarName{
-        font-size: 15px;
-    }
-    #sidebarSocialIcon {
-        font-size: 10px;
-    }
-    #sidebarLinkIcon {
-        font-size: 18px;
-    }
-    #sidebarLinkText {
-        font-size: 14px;
-    }
 }
 
 
@@ -55,12 +25,8 @@
     font-weight: 500;
     font-size: 2rem;
 }
-#Projects {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://c8.alamy.com/comp/2K54REM/boss-and-employees-discussing-project-isolated-cartoon-characters-on-white-background-manager-presenting-company-financial-report-brainstorming-team-2K54REM.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
 
-     /* Removed quotes around the value */
-}
+
+
+/* Media queries for responsiveness */
+

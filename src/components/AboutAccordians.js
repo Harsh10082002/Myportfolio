@@ -3,13 +3,15 @@
 
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import "../styles/aboutAccordian.css"
+
 
 const SkillAccordian =({index})=>{
     return<>
-        <div className="bg-white shadow-md px-8 py-4 rounded-lg">
+        <div id="aboutAccordian" className="bg-white shadow-md px-8 py-4 rounded-lg">
             {
                 index===1 ? 
-                    <div className="my-4">
+                    <div id="Technical" className="my-4">
                         <div className="flex items-center py-1">
                             <h2 className="text-lg font-semibold">Languages - </h2>
                             <span className="text-gray-700 px-2"> C | C++ | JavaScript | SQL(MYSQL)</span>
@@ -25,9 +27,11 @@ const SkillAccordian =({index})=>{
                     </div> :
                 index===2 ? 
             
-                <div className="p-2 ">
-                    <div className="my-2 p-3 flex items-center border-b border-gray-200">
-                        <Link to="https://sritgroup.net/#:~:text=Shri%20Ram%20Group%20was%20established,head%20of%20the%20educational%20group."><img className="h-24 w-24" src="https://sritgroup.net/wp-content/uploads/2020/07/logo.jpg"></img> </Link>
+                <div id="education" className="p-2 ">
+                    <div id="mainDiv" className="my-2 p-3 flex items-center border-b border-gray-200">
+                        <Link to="https://sritgroup.net/#:~:text=Shri%20Ram%20Group%20was%20established,head%20of%20the%20educational%20group.">
+                            <img className="h-24 w-24" src="https://sritgroup.net/wp-content/uploads/2020/07/logo.jpg"></img> 
+                        </Link>
                         <div className="px-10 ">
                             <h2 className="font-bold text-[#040b14] text-[18px]">Shri Ram Institue Of Technology, Jablapur </h2>
                             <h4 className="text-gray-700">Bachelor Of Technology (Computer Science And Engineering ) 7.9/10 cgpa.</h4>
@@ -79,7 +83,7 @@ const CommonAccordian=({title, index})=>{
 
     return<>
 
-        <div className="h-full">
+        <div id="commonAccordian" className="h-full">
             <div className="my-2">
                 <div className="flex justify-between items-center px-8 py-4 text-gray-900 bg-gray-100 rounded-t-md cursor-pointer" onClick={()=>{handleSkillAccordian(index)}}>
                     <h3 className="text-lg font-semibold">{title}</h3>
