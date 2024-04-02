@@ -25,3 +25,11 @@
     font-weight: 500;
     font-size: 2rem;
 }
+
+
+@media (max-width: 1199px) {
+    #Home{
+        padding-bottom: 3rem;
+    }
+    
+}

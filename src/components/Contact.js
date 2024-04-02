@@ -4,7 +4,6 @@ import {validation} from "../../utils/validation";
 import { useRef, useState } from "react";
 import "../styles/Main.css"
 import 'boxicons/css/boxicons.min.css';
-import { Link } from "react-router-dom";
 
  const Contact = () =>{
     const email = useRef(null);

@@ -1,0 +1,24 @@
+
+#projects{
+    width: 100%;
+    height: 100%;
+}
+
+#projectDetail{
+    width: 450px;
+}
+
+@media (min-width:390px) and (max-width: 845px) {
+
+    #projects{
+        width: 202px;
+        height: 100%;
+    }
+
+
+    #projectDetail{
+        width: 350px;
+        background-color: slateblue;
+    }
+    
+}

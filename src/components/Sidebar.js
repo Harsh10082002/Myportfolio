@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import "../styles/sidebar.css";
 
 const Sidebar = () => {
   return (
@@ -6,7 +8,7 @@ const Sidebar = () => {
 
         <div className="profile">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pXvPzIlM9T3pFyFIaEAZRhqONTwkaSfiOQ&usqp=CAU" alt="" className="img-fluid rounded-full" />
-          <h1 className="text-light"><Link to="">HARSH Chouksey</Link></h1>
+          <h1 className="text-light"><Link to="">HARSH CHOUKSEY</Link></h1>
           <div className="social-links mt-3 text-center">
             <Link to="" className="twitter"><i className="bx bxl-twitter"></i></Link>
             <Link to="" className="facebook"><i className="bx bxl-facebook"></i> </Link>

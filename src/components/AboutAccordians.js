@@ -1,10 +1,6 @@
-
-
-
 import { useState } from "react"
 import { Link } from "react-router-dom";
 import "../styles/aboutAccordian.css"
-
 
 const SkillAccordian =({index})=>{
     return<>
@@ -66,8 +62,6 @@ const SkillAccordian =({index})=>{
         </div>
     </>
 }
-
-
 const CommonAccordian=({title, index})=>{
     const [isSkillShown, setIsSkillShwon] = useState(false);
     const [isEduShown, setIsEduShwon] = useState(false);
@@ -94,7 +88,6 @@ const CommonAccordian=({title, index})=>{
         
     </>
 }
-
 const AboutAccordians = ()=>{
     
     return<>

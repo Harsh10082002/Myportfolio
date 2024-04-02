@@ -1,7 +1,6 @@
 
 
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar";
 import { useContext } from "react";
 import Mycontext from "../../utils/context/MyContext";
 
@@ -20,7 +19,6 @@ const Header=()=>{
         <div className="flex justify-between bg-[#023b6d] text-white items-center">
             <div className=" px-4">
                 logo
-                {/* <button className="text-white border border-1 p-2 cursor-pointer">collapse</button> */}
             </div>
             <div className="px-4 flex">
                 <ul className="flex ">
